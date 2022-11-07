@@ -1,0 +1,49 @@
+.item img {
+    width: 5cm;
+    height: 5cm;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.item .an {
+    display: none;
+}
+
+.item .anh1:hover +.an{
+    display: block;
+}
+
+
+.itam .anh {
+    width: 5cm;
+    height: 5cm;
+}
+
+.item {
+    position: relative;
+    width: 5cm;
+    text-align: center; 
+}
+
+.item .item-inf {
+    padding-top: 5cm;
+}
+
+.item .item-inf div:first-of-type{
+    border: 0px solid gray;
+    background-color: gray;
+    width: 190px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.item .an div {
+    display: none;
+    position: absolute;
+    top:4cm;
+    left: 1cm;
+    border: 1px solid black;
+    background-color: yellow;
+}
+

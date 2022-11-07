@@ -1,0 +1,192 @@
+body {
+    background-image:url(https://i.pinimg.com/564x/24/ec/7f/24ec7f743d035b2474ce079ed2da3627.jpg);
+    background-size: cover;
+}
+
+.mash-layout{
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mash-layout .container .menu .c2{   
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.mash-layout .container .menu .c2 li{   
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+.mash-layout .logo {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+
+.mash-layout .contact {
+    border: 1px solid gray;
+    border-radius: 20px 20px 20px 20px;
+    width: 90px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+}
+.mash-layout .contact:last-child {
+    display: inline-block;   
+}
+
+main .firt-span .fs1 {
+    position: relative;
+    line-height: 0.8em;
+    font-size: 56px;
+    vertical-align: baseline;
+    background: transparent;
+    margin-left: 100px;
+}
+
+main .firt-span .fs1:first-of-type {
+    color: blue;
+}
+
+main .firt-span .ss {
+    position: relative;
+    line-height: 0.8em;
+    font-size: 20px;
+    vertical-align: baseline;
+    background: transparent;
+    margin-left: 100px;
+    width: 10cm;
+    height: 30px;
+    margin-block-start: 50px;
+}
+
+main .slogan {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    line-height: 0.8em;
+    font-size: 20px;
+    vertical-align: baseline;
+    background: transparent;
+    margin-left: 100px;
+    margin-block-start: 50px;
+}
+
+main .mc {
+    border: 1px solid black;
+    width: 80%;
+    height: 5000px;
+    background-color: aliceblue;
+    margin: 50px;
+}
+
+main .mc .mcs {
+    text-align: center  ;
+}
+
+main .mc .mcs .msc1 p {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(225, 225, 157);
+}
+
+main .mc .mcs .msc2  {
+    position: relative;
+    display: inline-block;
+    width: 10cm;
+}
+
+main .mc .mcs .mcc ul {
+    display: flex;
+    flex-direction: row;
+}
+
+main .mc .mcs .mcc li{
+    display: inline-block;
+    margin: 60px;
+    padding: 60px;
+}
+
+main .mc .mcs .mcv video{
+    width: 20cm;
+}
+
+main .mc .mcs .mcw {
+    border: 1px solid black;
+    width: 13cm;
+    height: 8cm;
+    margin-block-start: 50px;
+    margin:60px;
+    padding: 60px   ;
+}
+
+main .mc .mcp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .mc .mcp .mcp1 .mcpp ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main .mc .mcp .mcp1 .mcpp li {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 300px 300px 300px 300px;
+    width: 7cm;
+    height: 7cm;
+}
+
+main .mc .mcp .mcp3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main .mc .mcp .mcp3 li {
+    display: inline-block;
+    width: 8cm;
+}
+
+main .mc .mcp .macp4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main .mc .mcp .mcp2 {
+    border: 1px solid black;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+main .mc .mcp .mcp2 p {
+    line-height: 30px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

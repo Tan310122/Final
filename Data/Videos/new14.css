@@ -1,0 +1,120 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    color: white;
+    height: 30px;
+}
+
+header .hd1 {
+    width: 60%;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+header .hd2 {
+    line-height: 30px;
+}
+
+header .hd2 ul{
+    display: flex;
+    /* flex-direction: row; */
+    margin: 0px;
+}
+
+header .hd2 li {
+    display: inline-block;
+    padding-left: 20px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+header .hd2 li:last-child {
+    border: none;
+}
+
+header .hd2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .hd2 li a:hover {
+    color: red  ;
+}
+
+header .hd2g {
+    line-height: 30px;
+}
+
+header .hd2g:hover .hdg {
+    display: block;
+}
+
+header .hd2 .hdg {
+    position: absolute;
+    background-color: aliceblue;
+    width: 200px;
+    display: none;
+}
+
+header .hd2 .hdg .hdgu {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    padding-inline-start: 0px;
+}
+
+header .hd2 .hdg .hdgu li {
+    padding-top: 20px;
+    border-bottom: 1px dashed black;
+}
+
+header .hd2 .hdg .hdgu a {
+    color: black;   
+}
+
+header .hd2 .hdg .hdgu li:last-child {
+    border: none;
+}
+
+header .hd2 .hdgu a:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 320px) and (max-height: 768px) {
+
+    header {
+        display: block;
+        width: 100% ;
+        height: 100%;
+    }
+
+    header .hd1 {
+        display: block;
+        width: 100%;
+    }
+
+    header .hd2 {
+        display: block;
+    }
+
+    header .hd2g {
+        margin-block-end: 10px;
+        margin-block-start: 10px;
+    }
+
+    header .hd2 ul {
+        background-color: white;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header .hd2 li a {
+        color: black;
+    }
+
+    header .hd2 .hdg {
+        position: static;
+        display: block;
+    }
+}

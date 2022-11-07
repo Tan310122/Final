@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="new.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <main>
+
+
+        <div class="galary">
+            <img src="https://static.danhgiaxe.com/data/201525/aston-martin-vanquish_6443.jpg">
+            <img src="https://static.danhgiaxe.com/data/201525/designed-in-house-at-ferrari-laferrari-is-a-bold-melange-of-classic-elements-from-maranellos-supercars-of-yore-its-lines-are-sleek-evocative-of-a-space-ship-yielding-the-ultimate-ferrari-hypercar_7007.jpg">
+            <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOnoja_4kkvAQyOh87V0KNlYDDo-uVp5aMG1yFgooZZGuB1RelfTGUVfkrMIrT7JooAXw&usqp=CAU">
+        </div>
+
+        <div class="lightbox" style="display: none;">
+            <div class = "bg"></div>
+            <img src="" class="large_img">
+        </div>
+
+        <button class="open_chatbox" onclick="open_chatbox()">Chat with me</button>
+        <div class="chatbox">
+            <form action="" class="form-container">
+                <h1>Chatbox</h1>
+            
+                <label for="msg"><b>Lời Nhắn</b></label>
+                <textarea placeholder="Bạn hãy nhập lời nhắn.." name="msg" required></textarea>
+            
+                <button type="submit" class="btn">Gửi</button>
+                <button type="button" class="btn nut-dong-chatbox" onclick="close_chatbox()">Đóng</button>
+              </form>
+        </div>
+
+    </main>
+
+    <script src="new.js"></script>
+</body>
+</html>

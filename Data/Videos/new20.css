@@ -1,0 +1,68 @@
+header {
+    background-color: red;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .aside1 {
+    /* float: left; */
+    background-color: yellow;
+    width: 25%;
+    height: 300px;
+}
+
+main .aside2 {
+    /* float: left; */
+    background-color: cyan;
+    width: 50%;
+    height: 300px;
+}
+
+main .aside3 {
+    /* float: left; */
+    background-color: palevioletred;
+    width: 25%;
+    height: 300px;
+}
+
+footer{
+    background-color: greenyellow;
+    height: 50px;
+}
+
+
+
+@media only screen and (max-width: 769px) {
+    main .aside1 {
+        width: 40%;
+    }
+
+    main .aside2 {
+        width: 60%;
+    }
+
+    main .aside3 {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+    main .aside1{
+        width: 100%;
+    }
+
+    main .aside2{
+        width: 100%;
+    }
+
+    main .aside3{
+        width: 100%;
+    }
+}
+
