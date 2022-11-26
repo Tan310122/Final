@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#datTour{
+    position: fixed;
+    right: 100px;
+    top: 500px;
+    width: 150px;
+    font-size: 28px;
+    height: 50px;
+    background-color: red;
+    color: yellow;
+    border-radius: 5px;
+    border-color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#datTour:hover{
+    background-color: yellow;
+    color: red;
+}
+
+/* HEADING */
+#header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header > #header-items{
+    display: flex;
+}
+#header > a > img{
+    margin-left: 30px;
+}
+#header >  #header-items > li > a{
+   text-decoration: none;
+   font-size: 20px;
+    color: white;
+    line-height: 100px;
+    margin: 0 30px;
+    font-weight: bold;
+}
+
+
+#header >  #header-items > li{
+    list-style: none;
+    position: relative;
+}
+
+#header >  #header-items > li > a:hover {
+    color: yellow;
+    
+}
+
+.choose{
+    
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    max-width: 200px;
+    white-space: nowrap;
+    left: -45px;
+    display: none;
+}
+
+.choose > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.choose > li{
+    list-style: none;
+    padding: 10px 0;
+    padding: 20px 20px;
+}
+
+.choose > li:hover, .choose > li:hover >a{
+    background-color: rgb(192, 192, 192);
+    color: red;
+}
+
+#header >  #header-items > li:hover .choose{
+    display: block;
+}
+/* SEARCH */
+
+#search{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    padding: 10px 0;
+}
+
+#search > div {
+    width: 20%;
+}
+
+#search > input{
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+#search > button{
+    width: 7%;
+    background-color: orangered;
+    border-color: gray;
+    border-radius: 3px;
+}
+
+/* CONTAINER */
+
+#container{
+    padding-bottom: 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#container > h1{
+    margin: 30px 150px;
+    color: red;
+}
+
+.container-items{
+    margin: 10px 150px;
+}
+
+.container-items > p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.container-items > h3{
+    font-size: 22px;
+    margin: 20px 0;
+    color: blue;
+}
+
+.container-items > img{
+    width: 800px;
+    margin: 10px 0;
+}
+
+/* FOOTER */
+
+#footer{
+    display: flex;
+    margin: 30px;
+}
+#footer > div{
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer > div > ul > li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 16px;
+}
+#footer > div:first-child{
+    width: 50%;
+}
+#footer > div:nth-child(2){
+    width: 20%;
+}
+#footer > div:last-child{
+    width: 30%;
+}
